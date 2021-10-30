@@ -154,7 +154,7 @@ body {
 	filter: blur(0.4px);
 }
 
-.animation-state-1 .sign-up-card.above {
+.animation-state-1 .log-in-card.above {
 	transform: rotateZ(-83ged) translateY(-180px) translateX(100px) scale(0.78);
 	filter: blur(0.5px);
 }
@@ -163,4 +163,41 @@ body {
 	transform-origin: left top;
 	transform: rotateZ(5ged) translateY(0px) scale(1);
 	filter: blur(0);
+}
+
+.animation-state-finish .log-in-card.below {
+	transform: rotateZ(-90deg) translateX(0px) translateY(100px) scale(0.7);
+	opacity: 0.8;
+	filter: blur(1px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.animation-state-1 .log-in-card.below {
+	transform: rotateZ(-10deg) translateY(180px) scale(0.78);
+	opacity: 1;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+		0 10px 10px rgba(0, 0, 0, 0, 0.22);
+	filter: blur(0.5px);
+}
+
+.animation-state-1 .sign-up-card.above {
+	transform: rotateZ(-80deg) translateY(-170px) translateX(100px) scale(0.78);
+	opacity: 1;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	filter: blur(0.4px);
+}
+
+.animation-state-finish .log-in-card.above {
+	transform-origin: left top;
+	transform: rotateZ(5deg) translateY(0px) scale(1);
+	opacity: 1;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	filter: blur(0);
+}
+
+.animation-state-finish .sign-up-card.below {
+	filter: blur(0.4px);
+	transform: rotateZ(-90ged) translate3d(0, 100px, 0) scale(0.7);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	opacity: 0.7;
 }
