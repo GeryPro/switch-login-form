@@ -124,6 +124,7 @@ body {
 
 .turned {
 	opacity: 0.8;
+	transform: rotateZ(-90deg) translate3d(0, 100px, 0) scale(0.7);
 }
 
 .sign-up-card,
@@ -133,13 +134,11 @@ body {
 
 .sign-up-card.turned {
 	filter: blur(0.8px);
-	transform: rotateZ(-90ged) translate3d(0, 100px, 0) scale(0.7);
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .log-in-card.turned {
 	filter: blur(1px);
-	transform: rotateZ(-90ged) translateX(0px) translateY(100px) scale(0.7);
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
@@ -183,7 +182,6 @@ body {
 .animation-state-1 .sign-up-card.above {
 	transform: rotateZ(-80deg) translateY(-170px) translateX(100px) scale(0.78);
 	opacity: 1;
-	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 	filter: blur(0.4px);
 }
 
@@ -191,7 +189,6 @@ body {
 	transform-origin: left top;
 	transform: rotateZ(5deg) translateY(0px) scale(1);
 	opacity: 1;
-	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 	filter: blur(0);
 }
 
